@@ -31,3 +31,7 @@ Do not commit database passwords, API secret keys, private scouting exports or a
 - `public/manifest.webmanifest`, `public/icon.svg`: installable web app.
 - `public/_headers`, `public/robots.txt`: security and indexing controls.
 - `wrangler.jsonc`: existing-Worker deployment configuration.
+
+## Automatic deployment smoke test
+
+A documentation-only commit on 17 October 2026 verifies whether Cloudflare Workers Builds is listening for pushes to the `main` branch. This change does not alter scouting data or application behaviour.
